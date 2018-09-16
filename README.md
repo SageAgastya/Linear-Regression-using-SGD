@@ -1,5 +1,5 @@
 # Linear-Regression-using-SGD
-Batch Gradient Descent(BGD) is an approach to find the least squared error which is defined by a Cost Function.
+Stochastic Gradient Descent(SGD) is an approach to find the least squared error which is defined by a Cost Function.
 In this method, we have to come across only one training example at a time. Convergence occur not in smoother way.
 The squared error will never reach to the minima instead it keeps oscillating around the minima. So the minima value
 will not be exact. This is where this approach fails when we have to deal with high degree of precision. 
@@ -26,5 +26,6 @@ We don't get to know the precised value of the point of convergence of the cost 
 
 
 Note:
-Instead of taking one training example at a time, we can consider several mini batches inside the training set. 
+Instead of taking one training example at a time, we can consider several mini-batches inside the training set. 
+
 
